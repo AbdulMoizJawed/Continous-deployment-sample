@@ -6,7 +6,7 @@ const Child = () => {
     
   return (
     <div>
-        <h1>Counter = {counter[0]}</h1>
+        <h1>Counter Counter Counter {counter[0]}</h1>
         <button onClick={()=>{counter[1](++counter[0])}}>Increment</button>
         <hr />
     </div>
